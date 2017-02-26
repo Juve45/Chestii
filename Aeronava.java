@@ -5,6 +5,7 @@ public class Aeronava {
         
     
     public Aeronava(String id_aeronava, String model) {
+System.out.println("Se apeleaza constructor");
         this.id_aeronava = id_aeronava;
         this.model=model;
     }
